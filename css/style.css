@@ -1,7 +1,9 @@
+/* Variáveis */
 :root {
-    --CorPrincipal: 
+    --CorPrincipal: #FF3019,#FF3E28, #FF5A2E, #FF6A31, #FF5F2F;
 }
 
+/* Todo site */
 .Wraaper{
     height: 1000vh;
     width: 100%;
@@ -10,15 +12,25 @@
     position: absolute;
 }
 
+/* Cabeçario */
 #Header{
     top: 0%;
     left: 0%;
     width: 100%;
     height: 45vh;
     position: relative;
-    background-color: linear-gradient(top right, #ff0000,#0000ff);
+    background-image: linear-gradient(125deg, var(--CorPrincipal));
+}
+.Header-Dec{
+    right: 5%;
+    bottom: 0%;
+    height: 39.4vh;
+    width: 55%;
+    position: absolute;
+    background-image: url(Image-Dec.png);
 }
 
+/* Barra de navegação */
 .Nav{
     top: 0%;
     height: 7vh;
@@ -28,10 +40,12 @@
     background-color: #ffff;
 }
 
+/* Corpo/texto */
 .Section{
 
 }
 
+/* Rodapé */
 .Footer{
     bottom: 0%;
     height: 10vh;
@@ -40,3 +54,4 @@
     position: absolute;
     background-color: #0b3f3a;
 }
+
