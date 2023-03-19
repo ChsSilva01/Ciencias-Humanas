@@ -1,6 +1,7 @@
 /* Variáveis */
 :root {
     --CorPrincipal: #FF3019,#FF3E28, #FF5A2E, #FF6A31, #FF5F2F;
+    --TextoNavSize: 30px;
 }
 
 /* Todo site */
@@ -30,6 +31,11 @@
     background-image: url(Image-Dec.png);
 }
 
+/* Texto */
+#texto{
+    color: linear-gradient(125degvar(--CorPrincipal));
+}
+
 /* Barra de navegação */
 .Nav{
     top: 0%;
@@ -42,16 +48,25 @@
 
 /* Corpo/texto */
 .Section{
-
+    left: 5%;
+    top: 0%;
+    height: 100%;
+    width: 90%;
+    background-color: #ffff;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    
+    
+    
 }
 
 /* Rodapé */
 .Footer{
     bottom: 0%;
-    height: 10vh;
+    height: 35vh;
     width: 100%;
     left: 0%;
-    position: absolute;
-    background-color: #0b3f3a;
+    position: relative;
+    background-image: linear-gradient(125deg, var(--CorPrincipal));
 }
 
