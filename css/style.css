@@ -10,54 +10,66 @@
     width: 100%;
     top: 0%;
     left: 0%;
-    position: absolute;
+    position: relative;
 }
 
 /* Cabeçario */
 #Header{
-    top: 0%;
+    top: 7vh;
     left: 0%;
     width: 100%;
     height: 45vh;
-    position: relative;
+    position: absolute;
     background-image: linear-gradient(125deg, var(--CorPrincipal));
 }
 .Header-Dec{
-    right: 5%;
-    bottom: 0%;
-    height: 39.4vh;
-    width: 55%;
+    right: 0%;
+    top: 7vh;
+    height: 45vh;
+    width: 50%;
     position: absolute;
-    background-image: url(Image-Dec.png);
+    background-image: url(../img/Image-Dec.png);
 }
 
 /* Texto */
 #texto{
-    color: linear-gradient(125degvar(--CorPrincipal));
+    background-image: linear-gradient(125deg, var(--CorPrincipal));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Baloo Thambi 2', cursive;
 }
 
 /* Barra de navegação */
-.Nav{
+#Nav{
     top: 0%;
     height: 7vh;
     width: 100%;
     left: 0%;
-    position: relative;
+    position: fixed;
     background-color: #ffff;
+    border-color: 1px solid #000;
 }
 
 /* Corpo/texto */
 .Section{
     left: 5%;
-    top: 0%;
+    bottom: 0%;
     height: 100%;
     width: 90%;
-    background-color: #ffff;
-    position: relative;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
-    
-    
-    
+    background-color: #fff;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    z-index: -1;
+}
+
+#Dec{
+    top: 0%;
+    height: 50vh;
+    width: 50vw;
+    left: 0%;
+    position: absolute;
+    background-color: blue;
 }
 
 /* Rodapé */
@@ -66,7 +78,7 @@
     height: 35vh;
     width: 100%;
     left: 0%;
-    position: relative;
+    position: absolute;
     background-image: linear-gradient(125deg, var(--CorPrincipal));
 }
 
