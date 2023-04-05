@@ -1,283 +1,148 @@
-@media only screen and (min-width: 1200px)
-{
-    /* Variáveis */
-    :root {
-        --CorPrincipal: #FF3019,#FF3E28, #FF5A2E, #FF6A31, #FF5F2F;
-        --TextoNavSize: 30px;
-    }
-
-    /* Todo site */
-    .Wraaper{
-        height: 1000vh;
-        width: 100%;
-        top: 0%;
-        left: 0%;
-        position: absolute;
-    }
-
-    /* Cabeçario */
-    #Header{
-        top: 7vh;
-        left: 0%;
-        width: 100%;
-        height: 45vh;
-        position: relative;
-        background-image: linear-gradient(125deg, var(--CorPrincipal));
-    }
-    .Header-Dec{
-        right: 0%;
-        top: 0%;
-        height: 45vh;
-        width: 50%;
-        position: absolute;
-    }
-
-    /* Texto */
-    #texto{
-        background-image: linear-gradient(125deg, var(--CorPrincipal));
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-family: 'Baloo Thambi 2', cursive;
-    }
-
-    /* Barra de navegação */
-    #Nav{
-        top: 0%;
-        height: 7vh;
-        width: 100%;
-        left: 0%;
-        position: fixed;
-        background-color: #ffff;
-        border-color: 1px solid #000;
-    }
-
-    /* Corpo/texto */
-    .Section{
-        left: 0%;
-        top: 0%;
-        height: 100%;
-        width: 100%;
-        background-color: #ffff;
-        position: relative;
-        z-index: -1;
-    }
-    .Section-1{
-        left: 5%;
-        top: 0%;
-        height: 100%;
-        width: 90%;
-        background-color: #fff;
-        position: relative;
-        box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
-        z-index: -1;
-    }
-
-    #Dec{
-        top: 50%;
-        height: 50vh;
-        width: 50vw;
-        left: 5px;
-        position: absolute;
-        background-image: linear-gradient(125deg, var(--CorPrincipal));
-        z-index: -2;
-        border-radius: 500px;
-    }
-    #Dec-1{
-        top: 10%;
-        height: 35vh;
-        width: 35vw;
-        right: 5px;
-        position: absolute;
-        background-image: linear-gradient(125deg, var(--CorPrincipal));
-        z-index: -2;
-        border-radius: 500px;
-    }
-    #Dec-2{
-        bottom: 10%;
-        height: 45vh;
-        width: 45vw;
-        right: 5px;
-        position: absolute;
-        background-image: linear-gradient(125deg, var(--CorPrincipal));
-        z-index: -2;
-        border-radius: 500px;
-    }
-    #Dec-3{
-        top: 15%;
-        height: 15vh;
-        width: 15vw;
-        left: 5px;
-        position: absolute;
-        background-image: linear-gradient(125deg, var(--CorPrincipal));
-        z-index: -2;
-        border-radius: 500px;
-    }
-    #Dec-4{
-        bottom: 0%;
-        height: 35vh;
-        width: 35vw;
-        left: 5px;
-        position: absolute;
-        background-image: linear-gradient(125deg, var(--CorPrincipal));
-        z-index: -2;
-        border-radius: 500px;
-    }
-
-    /* Rodapé */
-    .Footer{
-        bottom: 0%;
-        height: 35vh;
-        width: 100%;
-        left: 0%;
-        position: relative;
-        background-image: linear-gradient(125deg, var(--CorPrincipal));
-    }
-
-    .a{
-        width: 100%;
-        height: 46vh;
-    }
+ /* Variáveis */
+ :root {
+    --CorPrincipal: #FF3019,#FF3E28, #FF5A2E, #FF6A31, #FF5F2F;
+    --TextoNavSize: 30px;
 }
 
-@media only screen and (max-width: 600px) {
-     /* Variáveis */
-     :root {
-        --CorPrincipal: #FF3019,#FF3E28, #FF5A2E, #FF6A31, #FF5F2F;
-        --TextoNavSize: 30px;
-    }
+/* Todo site */
+.Wraaper{
+    height: 1000vh;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+}
 
-    /* Todo site */
-    .Wraaper{
-        height: 1000vh;
-        width: 100%;
-        top: 0%;
-        left: 0%;
-        position: absolute;
-    }
+/* Cabeçario */
+#Header{
+    top: 7vh;
+    left: 0%;
+    width: 100%;
+    height: 45vh;
+    position: relative;
+    background-image: linear-gradient(125deg, var(--CorPrincipal));
+}
+.Header-Dec{
+    right: 0%;
+    top: 0%;
+    height: 45vh;
+    width: 50%;
+    position: absolute;
+}
 
-    /* Cabeçario */
-    #Header{
-        top: 7vh;
-        left: 0%;
-        width: 100%;
-        height: 35vh;
-        position: relative;
-        background-image: linear-gradient(125deg, var(--CorPrincipal));
-    }
-    .Header-Dec{
-        right: 0%;
-        top: 0%;
-        height: 45vh;
-        width: 50%;
-        position: absolute;
-    }
+/* Texto */
+#texto{
+    background-image: linear-gradient(125deg, var(--CorPrincipal));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Baloo Thambi 2', cursive;
+}
 
-    /* Texto */
-    #texto{
-        background-image: linear-gradient(125deg, var(--CorPrincipal));
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-family: 'Baloo Thambi 2', cursive;
-        font-size: 3.5vw;
-    }
+#texto1{
+    font-size: 120px;
+    margin-left: 3vw;
+    padding-top: 3vh;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family: 'Baloo Thambi 2', cursive;
+}
 
-    /* Barra de navegação */
-    #Nav{
-        top: 0%;
-        height: 7vh;
-        width: 100%;
-        left: 0%;
-        position: fixed;
-        background-color: #ffff;
-        border-color: 1px solid #000;
-    }
 
-    /* Corpo/texto */
-    .Section{
-        left: 0%;
-        top: 0%;
-        height: 100%;
-        width: 100%;
-        background-color: #ffff;
-        position: relative;
-        z-index: -1;
-    }
-    .Section-1{
-        left: 5%;
-        top: 0%;
-        height: 100%;
-        width: 90%;
-        background-color: #fff;
-        position: relative;
-        box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
-        z-index: -1;
-    }
+/* Barra de navegação */
+#Nav{
+    top: 0%;
+    height: 7vh;
+    width: 100%;
+    left: 0%;
+    position: fixed;
+    background-color: #ffff;
+    border-color: 1px solid #000;
+}
 
-    #Dec{
-        top: 50%;
-        height: 50vh;
-        width: 50vw;
-        left: 5px;
-        position: absolute;
-        background-image: linear-gradient(125deg, var(--CorPrincipal));
-        z-index: -2;
-        border-radius: 500px;
-    }
-    #Dec-1{
-        top: 10%;
-        height: 35vh;
-        width: 35vw;
-        right: 5px;
-        position: absolute;
-        background-image: linear-gradient(125deg, var(--CorPrincipal));
-        z-index: -2;
-        border-radius: 500px;
-    }
-    #Dec-2{
-        bottom: 10%;
-        height: 45vh;
-        width: 45vw;
-        right: 5px;
-        position: absolute;
-        background-image: linear-gradient(125deg, var(--CorPrincipal));
-        z-index: -2;
-        border-radius: 500px;
-    }
-    #Dec-3{
-        top: 15%;
-        height: 15vh;
-        width: 15vw;
-        left: 5px;
-        position: absolute;
-        background-image: linear-gradient(125deg, var(--CorPrincipal));
-        z-index: -2;
-        border-radius: 500px;
-    }
-    #Dec-4{
-        bottom: 0%;
-        height: 35vh;
-        width: 35vw;
-        left: 5px;
-        position: absolute;
-        background-image: linear-gradient(125deg, var(--CorPrincipal));
-        z-index: -2;
-        border-radius: 500px;
-    }
+/* Corpo/texto */
+.Section{
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    position: relative;
+    z-index: -1;
+}
+.Section-1{
+    left: 5%;
+    top: 0%;
+    height: 100%;
+    width: 90%;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    z-index: -1;
+}
 
-    /* Rodapé */
-    .Footer{
-        bottom: 0%;
-        height: 28vh;
-        width: 100%;
-        left: 0%;
-        position: relative;
-        background-image: linear-gradient(125deg, var(--CorPrincipal));
-    }
+#Dec{
+    top: 50%;
+    height: 50vh;
+    width: 50vw;
+    left: 5px;
+    position: absolute;
+    background-image: linear-gradient(125deg, var(--CorPrincipal));
+    z-index: -2;
+    border-radius: 500px;
+}
+#Dec-1{
+    top: 10%;
+    height: 35vh;
+    width: 35vw;
+    right: 5px;
+    position: absolute;
+    background-image: linear-gradient(125deg, var(--CorPrincipal));
+    z-index: -2;
+    border-radius: 500px;
+}
+#Dec-2{
+    bottom: 10%;
+    height: 45vh;
+    width: 45vw;
+    right: 5px;
+    position: absolute;
+    background-image: linear-gradient(125deg, var(--CorPrincipal));
+    z-index: -2;
+    border-radius: 500px;
+}
+#Dec-3{
+    top: 15%;
+    height: 15vh;
+    width: 15vw;
+    left: 5px;
+    position: absolute;
+    background-image: linear-gradient(125deg, var(--CorPrincipal));
+    z-index: -2;
+    border-radius: 500px;
+}
+#Dec-4{
+    bottom: 0%;
+    height: 35vh;
+    width: 35vw;
+    left: 5px;
+    position: absolute;
+    background-image: linear-gradient(125deg, var(--CorPrincipal));
+    z-index: -2;
+    border-radius: 500px;
+}
 
-    .a{
-        width: 100%;
-        height: 37vh;
-    }
+/* Rodapé */
+.Footer{
+    bottom: 0%;
+    height: 35vh;
+    width: 100%;
+    left: 0%;
+    position: relative;
+    background-image: linear-gradient(125deg, var(--CorPrincipal));
+}
+
+.a{
+    width: 100%;
+    height: 46vh;
 }
