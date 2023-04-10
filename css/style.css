@@ -15,7 +15,7 @@
 
 /* Cabeçario */
 #Header{
-    top: 7vh;
+    top: 0vh;
     left: 0%;
     width: 100%;
     height: 45vh;
@@ -37,12 +37,12 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Baloo Thambi 2', cursive;
+    font-size: 30px;
+    text-align: center;
 }
 
-#texto1{
-    font-size: 120px;
-    margin-left: 3vw;
-    padding-top: 3vh;
+#texto1{ 
+    font-size: 80px;
     background-clip: text;
     -webkit-background-clip: text;
     font-family: 'Baloo Thambi 2', cursive;
@@ -57,7 +57,13 @@
     left: 0%;
     position: fixed;
     background-color: #ffff;
-    border-color: 1px solid #000;
+}
+/* Criar uma id depois */
+img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 /* Corpo/texto */
@@ -79,6 +85,11 @@
     position: relative;
     box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
     z-index: -1;
+}
+
+#img{
+    width: 350px;
+    height: 300px;
 }
 
 #Dec{
