@@ -13,7 +13,7 @@
     position: absolute;
 }
 
-/* Cabeçario */
+/* !!!Cabeçario!!! */
 #Header{
     top: 0vh;
     left: 0%;
@@ -30,7 +30,7 @@
     position: absolute;
 }
 
-/* Texto */
+/* Texto cabeçario */
 #texto{
     background-image: linear-gradient(125deg, var(--CorPrincipal));
     background-clip: text;
@@ -66,7 +66,8 @@ img{
     margin-bottom: 5px;
 }
 
-/* Corpo/texto */
+
+/* !!!Corpo/texto!!! */
 .Section{
     left: 0%;
     top: 0%;
@@ -91,7 +92,14 @@ img{
     width: 350px;
     height: 300px;
 }
-
+#Retangulo{
+    top: 2%;
+    left: 5%;
+    width: 90%;
+    height: 6vh;
+    position: relative;
+    background-color: #D9D9D9;
+}
 #Dec{
     top: 50%;
     height: 50vh;
@@ -143,7 +151,7 @@ img{
     border-radius: 500px;
 }
 
-/* Rodapé */
+/* !!!Rodapé!!! */
 .Footer{
     bottom: 0%;
     height: 35vh;
