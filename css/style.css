@@ -1,8 +1,7 @@
  /* Variáveis */
  :root {
-    --CorPrincipal: #FF3019,#FF3E28, #FF5A2E, #FF6A31, #FF5F2F;
-    --TextoNavSize: 30px;
-    --CorBG: #101010, #191919, #1C1C1C, #1D1D1D;
+    --CorPrincipal: #27147D,#3C248F, #5034A1, #6544B3;
+
 }
 
 /* Todo site */
@@ -12,7 +11,7 @@
     top: 0%;
     left: 0%;
     position: absolute;
-    background-color: #1F1F1F;
+    background-color: #d9d9d9;
 }
 
 /* !!!Cabeçario!!! */
@@ -20,93 +19,30 @@
     top: 0%;
     left: 0%;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     position: relative;
-    background-image: linear-gradient(125deg, var(--CorBG));
+    background-image: linear-gradient(125deg, var(--CorPrincipal));
     display: flex;
-    justify-content: space-around;
-}
-.Header-Dec{
-    right: 0%;
-    top: 0%;
-    height: 45vh;
-    width: 50%;
-    position: absolute;
-}
+    flex-direction: column;
 
-/* Texto cabeçario */
-#texto{
-    background-color: #D9D9D9;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Montserrat', sans-serif;
+}
+ul{
+    margin-left: 20%;
+}
+#a{
+    color: #d9d9d9;
     font-size: 30px;
-    text-align: center;
-    text-decoration: underline;
 }
-
-#texto1{ 
-    font-size: 50px;
-    background-clip: text;
-    -webkit-background-clip: text;
-    font-family: 'Montserrat', sans-serif;
-    color: #fff;
-    margin-top: 15vh;
-    top: 0%;
-}
-
-
-/* Barra de navegação */
-#Nav{
-    top: 0%;
-    height: 15vh;
+/* #Header::before{ 
+    content: '';
+    position: relative;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    left: 0%;
-    position: fixed;
-    
-}
-/* Criar uma id depois */
-img{
-    width: 2vw;
-    height: 3.5vh;
-    margin-right: 1.5vh;
-    margin-bottom: 0.3vw;
-}
-
-
-/* !!!Corpo/texto!!! */
-.Section{
-    left: 0%;
-    top: 0%;
-    height: 100%;
-    width: 100%;
-    background-color: #1F1F1F;
-    position: relative;
-    z-index: -1;
-}
-.Section-1{
-    left: 5%;
-    top: 0%;
-    height: 100%;
-    width: 90%;
-    background-color: #1F1F1F;
-    position: relative;
-}
-
-#img{
-    width: 30%;
-    height: 30%;
-}
-#Retangulo{
-    top: 2%;
-    left: 5%;
-    width: 90%;
-    height: 6vh;
-    position: relative;
-    background-color: #D9D9D9;
-}
-
+    background: url(../img/wave.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
 
 /* !!!Rodapé!!! */
 .Footer{
@@ -114,20 +50,7 @@ img{
     height: 35vh;
     width: 100%;
     left: 0%;
-    position: relative;
+    position: absolute;
     background-image: linear-gradient(125deg, var(--CorPrincipal));
 }
 
-.a{
-    font-size: 45px;
-    margin-top: 30%;
-    
-}
-.b{
-    font-size: 20px;
-    
-}
-.img{
-    width: 50vw;
-    height: 100%;
-}
