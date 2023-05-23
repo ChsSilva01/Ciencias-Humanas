@@ -19,7 +19,7 @@
     top: 0%;
     left: 0%;
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     position: relative;
     background-image: linear-gradient(125deg, var(--CorPrincipal));
 }
@@ -100,7 +100,7 @@ p{
 /* Corpo */
 section{ 
     width: 100%;
-    height: 855vh;
+    height: 845vh;
     top: 0%;
     left: 0%;
     position: relative;
