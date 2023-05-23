@@ -11,7 +11,7 @@
     top: 0%;
     left: 0%;
     position: absolute;
-    background-color: #d9d9d9;
+    background-color: #ffff;
 }
 
 /* !!!Cabeçario!!! */
@@ -19,31 +19,105 @@
     top: 0%;
     left: 0%;
     width: 100%;
-    height: 80vh;
+    height: 110vh;
     position: relative;
     background-image: linear-gradient(125deg, var(--CorPrincipal));
-    display: flex;
-    flex-direction: column;
-
 }
 ul{
     margin-left: 20%;
 }
 #a{
     color: #d9d9d9;
-    font-size: 30px;
 }
-/* #Header::before{ 
+#b,#c{
+    font-size: 30px;
+    color: #d9d9d9;
+}
+#c{
+    text-decoration: underline;
+    text-decoration-color: #A58BFF;
+}
+#Header::before{ 
     content: '';
-    position: relative;
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
+    height: 32.5vh;
     background: url(../img/wave.png);
     background-size: cover;
     background-repeat: no-repeat;
-}*/
+}
+#texto{
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 50%;
+    text-align: justify;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+#figuras{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    right: 0;
+    top: 0;
+    margin-left: 1%;
+}
+#Arrumar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80vh;
+}
+#a1,#a2,#a3,#a4{
+    width: 9%;
+    height: 10%;
+    background-color: #ffff;
+}
+#a1{
+    margin-top: 0%;
+    margin-left: 30%;
+    border-radius: 30%;
+}
+#a2{
+    margin-top: 5%;
+    margin-left: 70%;
+    border-radius: 30%;
+}
+#a3{
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 50%;
+}
+#a4{
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 30%;
+}
 
+/* Corpo */
+section{ 
+    width: 100%;
+    height: 855vh;
+    top: 0%;
+    left: 0%;
+    position: relative;
+}
+#folha{
+    width: 90%;
+    height: 100%;
+    top: 0%;
+    left: 5%;
+    position: relative;
+}
+#titulo{
+    text-align: center;
+    color: #3C248F;
+    font-size: 50px;
+    font-weight: bold;
+}
 /* !!!Rodapé!!! */
 .Footer{
     bottom: 0%;
