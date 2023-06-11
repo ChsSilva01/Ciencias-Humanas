@@ -19,7 +19,7 @@
     top: 0%;
     left: 0%;
     width: 100%;
-    height: 105vh;
+    height: 110vh;
     position: relative;
     background-image: linear-gradient(70.42deg, #27147D 0%, #3C248F 30.77%, #5034A1 69.01%, #6544B3 99.22%);
 }
@@ -175,7 +175,7 @@ p{
 /* Corpo */
 section{ 
     width: 100%;
-    height: 495vh;
+    height: 855vh;
     top: 0%;
     left: 0%;
     position: relative;
@@ -577,10 +577,6 @@ a{
     height: 30%;
     margin-bottom: 6vh;
 }
-.OrL{
-  
-}
-
 
 /* !!!Rodapé!!! */
 .Footer{
