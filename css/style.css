@@ -19,7 +19,7 @@
     top: 0%;
     left: 0%;
     width: 100%;
-    height: 110vh;
+    height: 105vh;
     position: relative;
     background-image: linear-gradient(70.42deg, #27147D 0%, #3C248F 30.77%, #5034A1 69.01%, #6544B3 99.22%);
 }
@@ -64,7 +64,8 @@ ul{
     width: 50%;
     text-align: justify;
 }
-p{
+
+*{
     font-family: 'Montserrat', sans-serif;
 }
 #Nav{
@@ -175,7 +176,7 @@ p{
 /* Corpo */
 section{ 
     width: 100%;
-    height: 855vh;
+    height: 495vh;
     top: 0%;
     left: 0%;
     position: relative;
@@ -190,7 +191,7 @@ section{
 #titulo{
     text-align: center;
     color: #3C248F;
-    font-size: 50px;
+    font-size: 4vw;
     font-weight: bold;
 }
 .t{
@@ -218,17 +219,19 @@ section{
 }
 #texto-1{
     font-size: 1.5vw;
-    color: #000;
-}
+    color: #000000;
+    text-align: justify;
+}   
 
 /* Carrossel */
 
 .containeR{
     position: relative;
-    padding: 15px;
+    padding: 2.4630541871921183vh;
     max-width: 100%;
     margin: 0 auto;
     height: 95vh;
+    background-color: #F5F5F5;
 }
 .galery-wrapper{
     overflow-x: auto;
@@ -263,9 +266,13 @@ section{
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
-.gg{
-    padding-bottom: 5vh;
+#gg{
+    padding-bottom: 5vw;
     text-align: center;
+    font-size: 1vw;
+}
+#CkJ{
+    font-size: 1vw;
 }
 .ca{
     position: absolute;
@@ -282,9 +289,9 @@ section{
     background-color: blueviolet;
 }
 .cj{
-    padding-left: 20px;
-    width: 250px;
-    height: 500px;
+    padding-left: 3.284072249589491vh;
+    width: 19.53125vw;
+    height: 82.10180623973727vh;
     top: 0;
     right: 0;
 }
@@ -305,6 +312,7 @@ b{
     font-size: 2vw;
 }
 #al{
+    top: 10vh;
     width: 7vw;
     height: 5.5vh;
     background-color: #6544B3;
@@ -313,6 +321,7 @@ b{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1vw;
 }
 .aa{
     padding-left: 2vh;
@@ -333,7 +342,7 @@ b{
 
 .containerR{
     position: relative;
-    padding: 15px;
+    padding: 2.4630541871921183vh;
     max-width: 100%;
     margin: 0 auto;
     height: 95vh;
@@ -403,12 +412,13 @@ b{
     font-size: 2vw;
 }
 .arrow-leftT,.arrow-rightT{
-    height: 70vh;
-    width: 1vw;
+    height: 4vh;
+    width: 2vw;
+    top: 35%;
     display: flex;
     align-items: center;
-    background-color: #D9D9D9;
-    opacity: 0.5;
+    background-color: #ffffff;
+    border-radius: 10vw;
 }
 .ret{
     width: 15vw;
@@ -515,6 +525,11 @@ a{
     font-weight: bold;
     font-size: 2vw;
 }
+#znM{
+    font-size: 1.5vw;
+    display: flex;
+    text-align: justify;
+}
 .ax1{
     top: 10%;
 }
@@ -563,6 +578,7 @@ a{
     position: relative;
     text-align: center;
     border-radius: 2vh;
+    font-size: 1vw;
 }
 .aBY{
     width: 100%;
@@ -576,6 +592,7 @@ a{
     height: 30%;
     margin-bottom: 6vh;
 }
+
 
 /* !!!Rodapé!!! */
 .Footer{
@@ -651,3 +668,11 @@ a{
     padding-left: 20%;
     bottom: 10%;
 }
+#img{ 
+    width: 50vw; 
+    height: 50vh; 
+}
+/* .OsX{ */
+    /* width: 2vw; */
+    /* height: 2.3vh; */
+/* } */
