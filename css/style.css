@@ -92,6 +92,7 @@ ul{
     height: 80vh;
 }
 #Arrumar1{
+    margin-top: 15%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -223,6 +224,35 @@ section{
     text-align: justify;
 }   
 
+/* Curso */
+.iyxc{
+    top: 0%;
+    right: 13%;
+    width: 125%;
+    height: 100vh;
+    position: relative;
+}
+.joaiy{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.ndtau{
+    width: 12vw;
+    height: 11vh;
+    border: 10px solid #0000;
+    top: 0%;
+    left: 0%;                                                                                               
+    position: relative;
+    background-color: #6544B3;
+    color: #ffff;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 3vh;
+}
+
 /* Carrossel */
 
 .containeR{
@@ -314,7 +344,7 @@ b{
 }
 #al{
     top: 10vh;
-    width: 7vw;
+    width: 15vw;
     height: 5.5vh;
     background-color: #6544B3;
     border-radius: 5vh;
@@ -467,7 +497,7 @@ a{
     width: 127%;
     height: 90vh;
     left: -15%;
-    top: 0;
+    top: 5%;
     position: relative;
     display: flex;
     align-items: center;

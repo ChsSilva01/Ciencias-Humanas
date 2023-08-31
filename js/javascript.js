@@ -97,5 +97,14 @@ controlsS.forEach(controlL => {
 })
 
 
+function Cursos(){
+        Texto = "Esta área de estudo é essencial para entender o que nos move como seres humanos e o que torna nossas vidas significativas, portanto, em uma faculdade de filosofia você estudará os princípios fundamentais da vida e da existência humana.";
+        // imagem = "<img src='img/Foto-Header.png'>";
+        const el = document.querySelector('#egll');
+        el.style.cssText =
+        'background-color: #8059DE;' + 
+        'color: #fffff';
+        document.getElementById("CkJ").innerText = Texto;
+        // document.getElementById("lxsx").innerHTML = imagem;
 
-
+}
