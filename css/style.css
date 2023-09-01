@@ -11,7 +11,7 @@
     top: 0%;
     left: 0%;
     position: absolute;
-    background-color: #ffff;
+    background-color: #E0E7FF;
 }
 
 /* !!!Cabeçario!!! */
@@ -31,8 +31,7 @@ ul{
     font-size: 1.5vw;
 }
 #b,#c{
-    color: #d9d9d9;
-    font-weight: bolder;
+    color: #ffff;
     
 }
 #c{
@@ -60,7 +59,7 @@ ul{
 }
 #texto{
     margin-left: 5%;
-    margin-top: 3%;
+    margin-top: 2%;
     width: 50%;
     text-align: justify;
 }
@@ -77,8 +76,8 @@ ul{
     background-color: #00000076;
 }
 #figuras{
-    width: 50%;
-    height: 80%;
+    width: 20%;
+    height: 100%;
     position: relative;
     right: 0;
     top: 0;
@@ -90,6 +89,7 @@ ul{
     flex-direction: row;
     width: 100%;
     height: 80vh;
+    justify-content: center;
 }
 #Arrumar1{
     margin-top: 15%;
@@ -106,6 +106,20 @@ ul{
     padding-top: 3vw;
     justify-content: space-between;
 }
+#Arrumar3{
+    margin-top: -150%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3vw;
+}
+#Arrumar4{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3vw;
+}
 #a1,#a2,#a3,#a4,#a5,#a6,#a7,#a8,#a9,#a10{
     font-size: 6vw;
     color: #ffffff;
@@ -113,66 +127,103 @@ ul{
     position: absolute;
 }
 #a1{
-    margin-top: 7%;
-    margin-left: 16%;
+    margin-top: 100%;
+    margin-left: 60%;
     border-radius: 30%;
     transform: rotate(20deg);
 }
 #a2{
-    margin-top: 8%;
+    margin-top: 0%;
     margin-left: 40%;
     border-radius: 30%;
     transform: rotate(-20deg);
 }
 #a3{
-    margin-top: 2%;
-    margin-left: 66%;
+    margin-top: 32%;
+    margin-left: 90%;
     border-radius: 50%;
     transform: rotate(0deg);
 }
 #a4{
-    margin-top: 27%;
-    margin-left: 11%;
+    margin-top: 100%;
+    margin-left: 0%;
     border-radius: 30%;
     transform: rotate(-20deg);
 }
 #a5{
-    margin-top: 25%;
+    margin-top: 40%;
     margin-left: 21%;
     border-radius: 30%;
     transform: rotate(10deg);
 }
 #a6{
-    margin-top: 37%;
-    margin-left: 33%;
+    margin-top: 100%;
+    margin-left: 50%;
     border-radius: 30%;
     transform: rotate(-20deg);
 }
 #a7{
-    margin-top: 30%;
-    margin-left: 51%;
+    margin-top: 0%;
+    margin-left: 80%;
     border-radius: 50%;
     transform: rotate(20deg);
 }
 #a8{
-    margin-top: 52%;
-    margin-left: 21%;
+    margin-top: 0%;
+    margin-left: 10%;
     border-radius: 30%;
     transform: rotate(0deg);
 }
 #a9{
-    margin-top: 52%;
-    margin-left: 51%;
+    margin-top: 60%;
+    margin-left: 60%;
     border-radius: 30%;
     transform: rotate(-20deg);
 }
 #a10{
     margin-top: 62%;
-    margin-left: 36%;
+    margin-left: 10%;
     border-radius: 30%;
     transform: rotate(-20deg);
 }
 
+/* Dropdwon W3SCHOOLS*/
+.dropbtn {
+    color: white;
+    padding: 0.5vw;
+    font-size: 1vw;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #27147D;
+  }
+  
+  .dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {background-color: #838383}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+/*  */
 
 /* Corpo */
 section{ 
@@ -229,7 +280,7 @@ section{
     top: 0%;
     right: 13%;
     width: 125%;
-    height: 100vh;
+    height: 90vh;
     position: relative;
 }
 .joaiy{
@@ -239,18 +290,40 @@ section{
 }
 .ndtau{
     width: 12vw;
-    height: 11vh;
+    height: 8vh;
     border: 10px solid #0000;
     top: 0%;
-    left: 0%;                                                                                               
+    margin-left: 4%;                                                                                               
     position: relative;
     background-color: #6544B3;
     color: #ffff;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
     display: flex;
     align-items: center;
+    justify-content: center;
     font-size: 3vh;
+    
+}
+#cxdo{
+    padding-top: 5%;
+    width: 35vw;
+    text-align: justify;
+}
+.rjti{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* Carrossel */
@@ -274,6 +347,9 @@ section{
 .flex{
     display: flex;
     flex-direction: row;
+    background-color: #ffff;
+    top: 0;
+    left: 0;
 }
 .item{
     width: 100%;
@@ -301,8 +377,12 @@ section{
     text-align: center;
     font-size: 1vw;
 }
-#CkJ{
-    font-size: 1vw;
+.CkJ{
+    font-size: 1.2vw;
+}
+.CkJA{
+    font-size: 1.2vw;
+    width: 20vw;
 }
 .ca{
     position: absolute;
@@ -320,24 +400,27 @@ section{
 }
 .cj{
     padding-left: 3.284072249589491vh;
-    width: 19.53125vw;
-    height: 82.10180623973727vh;
+    width: 150vh;
+    height: 80vh;
     top: 0;
     right: 0;
+    background-color: #ffff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 #tm{
-    width: 30vw;
-    height: 95vh;
+    width: 23vw;
+    height: 80vh;
 }
 #acu{
     top: 5%;
-    width: 40vw;
+    width: 70vw;
     height: 95vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: justify;
     position: relative;
+    
 }
 b{
     font-size: 2vw;
@@ -494,10 +577,10 @@ a{
 
 #bg{
     background-image: linear-gradient(180deg,var(--CorPrincipal));
-    width: 127%;
+    width: 114.90%;
     height: 90vh;
     left: -15%;
-    top: 5%;
+    top: -60%;
     position: relative;
     display: flex;
     align-items: center;
@@ -632,12 +715,13 @@ a{
 
 /* !!!Rodapé!!! */
 .Footer{
-    bottom: -10%;
+    bottom: 0%;
     height: 50vh;
     width: 100%;
     left: 0%;
     position: absolute;
     z-index: 1;
+    background-color: #E0E7FF;
 }
 .Footer::before{ 
     content: '';

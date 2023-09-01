@@ -27,35 +27,57 @@
           <div id="Nav">
             <ul class="nav" id="d">
               <li class="nav-item">
-                <a class="nav-link" id='c' href="#">Home</a>
+                <div class="dropdown">
+                  <div class="dropbtn" id="c">Home</div>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id='c' href="#">Cursos</a>
+                <div class="dropdown">
+                  <div class="dropbtn" id="c">Cursos</div>
+                  <div class="dropdown-content">
+                  <a href="#">Filosofia</a>
+                  <a href="#">Psicologia</a>
+                  <a href="#">Direito</a>
+                  <a href="#">História</a>
+                  <a href="#">Marketing</a>
+                  <a href="#">Pedagogia</a>
+                  
+                  </div>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id='c' href="#">Faculdades</a>
+                <div class="dropdown">
+                  <div class="dropbtn" id="c">Faculdades</div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <div class="dropbtn" id="c">Pos-Graduação</div>
+                </div>
               </li>
             </ul>
           </div>
           <!-- Fim Navbar -->
           <div id="Arrumar">
+            <div id="figuras">
+              <p id="a1">N</p>
+              <p id="a2">E</p>
+              <p id="a3">P</p>
+              <p id="a4">T</p>
+              <p id="a5">I</p>
+            </div>
             <div id="texto">
               <p id="a">Feira de Profissões</p>
               <p id="b">Ciências Humanas</p>
-              <p id="a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quis recusandae atque, rem nisi exercitationem explicabo laboriosam ipsum harum est quisquam inventore? Ducimus, quam veniam? Officia atque hic totam repellat?
-              At ea, accusantium, dignissimos ipsum eaque quasi qui nesciunt distinctio odio mollitia</p>
+              <p id="a">Embora do ponto de vista técnico todo e qualquer conhecimento produzido pela humanidade seja uma “ciência humana”, a expressão ciências humana em si refere-se somente àquelas ciências que têm o ser humano como seu objeto de estudo ou foco.
+              Essa área do conhecimento tem um caráter múltiplo. Da mesma forma em que abrange características teóricas em campos como Linguística, Gramática e Filosofia, ela apresenta características práticas através da Comunicação Social, Administração e Direito.</p>
             </div>
               <div id="figuras">
-                <p id="a1">N</p>
-                <p id="a2">E</p>
-                <p id="a3">P</p>
-                <p id="a4">T</p>
-                <p id="a5">I</p>
-                <p id="a6">D</p>
-                <p id="a7">B</p>
-                <p id="a8">S</p>
-                <p id="a9">F</p>
-                <p id="a10">A</p>
+                <p id="a6">N</p>
+                <p id="a7">E</p>
+                <p id="a8">P</p>
+                <p id="a9">T</p>
+                <p id="a10">I</p>    
               </div>
           </div>
         </div>
@@ -68,252 +90,67 @@
               <div id="traco1" class="tr"></div>
             </div>
             <div id="Arrumar2">
-              <p id="texto-1">Embora do ponto de vista técnico todo e qualquer conhecimento produzido pela humanidade seja uma “ciência humana”, a expressão ciências humana em si refere-se somente àquelas ciências que têm o ser humano como seu objeto de estudo ou foco.
-              Essa área do conhecimento tem um caráter múltiplo. Da mesma forma em que abrange características teóricas em campos como Linguística, Gramática e Filosofia, ela apresenta características práticas através da Comunicação Social, Administração e Direito. 
+              <p id="texto-1">Para apresentarmos os principais cursos da área de ciências humanas é preciso que você caro leitor entenda que existe dois tipos de pós-graduação: Lato sensu e Stricto Sensu. Vamos lá!
+              As formações Lato Sensu se referem a especializações direcionadas diretamente ao mercado de trabalho, e incluem diversos programas e cursos designados como MBA (Master Business Administration). Esta graduação possui duração mínima de 360 horas e ao final do curso você obterá um certificado.
+              A graduação Stricto Sensu diz respeito a uma especialização voltada para pesquisas e para salas de aula de nível superior, aquele que conclui esta formação, além de ganhar um diploma, obtém o título de mestre ou doutor (se referindo respectivamente as formações de mestrado e doutorado). É importante ressaltar que há uma hierarquia entre essas graduações, só se pode estudar em um doutorado após concluir o mestrado.
+                </p>
               <div id="img"><img src="img/img-1.png" class="img-fluid" alt="Responsive image"></div>
             </div>
 
-            <div id="Arrumar1">
-              <div id="traco" class="tr1"></div>
-              <p id="titulo">Faculdades</p>
-              <div id="traco1" class="tr1"></div>
-            </div>
-            
             <div class="iyxc">
+              <div class="joaiy">
+                <div class="ndtau" id="Filosofia" onclick="Filosofia()">
+                  <p>Filosofia</p>
+                </div>
+                <div class="ndtau" id="Psicologia" onclick="Psicologia()">
+                  <p>Psicologia</p>
+                </div>
+                <div class="ndtau" id="Direito" onclick="Direito()">
+                  <p>Direito </p>
+                </div>
+                <div class="ndtau" id="História" onclick="História()">
+                  <p>História</p>
+                </div>
+                <div class="ndtau" id="Marketing" onclick="Marketing()">
+                  <p>Marketing</p>
+                </div>
+                <div class="ndtau" id="Pedagogia" onclick="Pedagogia()">
+                  <p>Pedagogia</p>
+                </div>                 
+              </div>
                 <div class="flex" id="egll">
-                  <div id="lxsx"><img src="img/image-fi.png" class="img-fluid" id="tm"></div>
+                  <div id="lxsx"><img src="img/Filosofia.png" class="img-fluid" id="tm"></div>
                   <div class="cj">
-                      <table id="acu">
-                          <tr>
-                              <b>Filosofia</b>
-                              <td class="aa">
-                                  <div id="al">Perfil profissional</div>
-                                  <a id="CkJ">sit amet consectetur adipisicing elit. Iste, eum? Ea eveniet, eum officiis perferendis totam rem nemo a accusamus architecto quia non sequi dolorem eius ut id sunt praesentium.</a>
-                                  <div id="al">Curso</div>
-                                  <a id="CkJ">sit amet consectetur adipisicing elit. Iste, eum? Ea eveniet, eum officiis perferendis totam rem nemo a accusamus architecto quia non sequi dolorem eius ut id sunt praesentium.</a>
-                              </td>
-                              <td class="aa">    
-                                  <div id="al">Mercado de trabalho</div>
-                                  <a id="gg">Lorem, ipsum dolor sit</a>
-                                  <a id="CkJ">sit amet consectetur adipisicing elit. Iste, eum? Ea eveniet, eum officiis perferendis totam rem nemo a accusamus architecto quia non sequi dolorem eius ut id sunt praesentium.</a>
-                                  <div id="al">Lorem</div>
-                                  <a id="gg">Lorem, ipsum dolor sit amet</a>
-                                  <a id="CkJ">sit amet consectetur adipisicing elit. Iste, eum? Ea eveniet, eum officiis perferendis totam rem nemo a accusamus architecto quia non sequi dolorem eius ut id sunt praesentium.</a>
-                              </td>
-                          </tr>
-                      </table>
+                              <b id="zaba">Filosofia</b>
+                                <div class="row">
+                                  <div class="column">
+                                    <div class="rjti">
+                                      <div id="cxdo">
+                                        <div id="al">Perfil profissional</div>
+                                        <p class="CkJ" id="kigq">Pessoas com perfil crítico, observador e questionador são as mais indicadas para estudar Filosofia. É preciso que o estudante goste de ler, pois todo o conteúdo é composto por textos densos, com o estudo de linhas de pensamento de filósofos importantes na História.</p>
+                                      </div>
+                                      <div id="cxdo">
+                                        <div id="al">Mercado de trabalho</div>
+                                        <p class="CkJ" id="kjni">As principais áreas na qual um graduado em filosofia pode trabalhar são: Docência, Pesquisa e carreira acadêmica, Colunista e crítico em veículos de comunicação, Setor público e ONGs, Mercado editorial. O Filosofo ganha no Brasil, em média, de <b class="CkJ">R$2000,00</b> a <b class="CkJ">R$ 6.500,00.</b>
+                                        </p>
+                                      </div>
+                                  </div>
+                                  </div>
+                                  <div class="column">
+                                    <div id="cxdo">
+                                      <div id="al">Curso</div>
+                                      <p class="CkJ" id="yrab">Em uma faculdade de filosofia você estudará os princípios fundamentais da vida e da existência humana. 
+                                      Normalmente, cursos que possuem graduações em licenciatura ou bacharelado o aluno pode se formar em 4 anos, ou seja, 8 semestres.
+                                      As faculdades oferecem um curso de graduação com disciplinas que abrangem diferentes ramos da filosofia, como filosofia moral, política, social, religiosa, epistemológica, existencial etc.
+                                      </p> 
+                                    </div>
+                                  </div>
+                                </div>
+                        </div>
                   </div>
-                </div>
-                <div class="joaiy">
-                  <div class="ndtau" id="Filosofia" value="A" onclick="Cursos()">
-                    <p>Filosofia</p>
-                  </div>
-                  <div class="ndtau">
-                    <p>Psicologia</p>
-                  </div>
-                  <div class="ndtau">
-                    <p>Direito </p>
-                  </div>
-                  <div class="ndtau">
-                    <p>História</p>
-                  </div>
-                  <div class="ndtau">
-                    <p>Marketing</p>
-                  </div>
-                  <div class="ndtau">
-                    <p>Pedagogia</p>
-                  </div>                 
-                </div>
+                </div>        
             </div>
-
-            <!-- Carrossel 
-            
-            <div class="containeR">
-              <div class="flex">
-                  <div class="arrow-left control ca" onmouseover="button()" onmouseout="buttonS()"></div>
-                  <div class="arrow-right control cb" onmouseover="button1()" onmouseout="buttonS1()"></div>
-              </div>
-                  <div class="galery-wrapper">
-                  <div class="gallery">
-                          <div class="item current-item">
-                            <div class="flex">
-                                <div><img src="img/image-fi.png" class="img-fluid" id="tm"></div>
-                                <div class="cj">
-                                    <table id="acu">
-                                        <tr>
-                                            <b>Filosofia</b>
-                                            <td class="aa">
-                                                <div id="al">Lorem</div>
-                                                <a id="gg">Lorem, ipsum dolor</a>
-                                                <a id="CkJ">sit amet consectetur adipisicing elit. Iste, eum? Ea eveniet, eum officiis perferendis totam rem nemo a accusamus architecto quia non sequi dolorem eius ut id sunt praesentium.</a>
-                                                <div id="al">Lorem</div>
-                                                <a id="gg">Lorem, ipsum dolor sit</a>
-                                                <a id="CkJ">sit amet consectetur adipisicing elit. Iste, eum? Ea eveniet, eum officiis perferendis totam rem nemo a accusamus architecto quia non sequi dolorem eius ut id sunt praesentium.</a>
-                                            </td>
-                                            <td class="aa">    
-                                                <div id="al">Lorem</div>
-                                                <a id="gg">Lorem, ipsum dolor sit</a>
-                                                <a id="CkJ">sit amet consectetur adipisicing elit. Iste, eum? Ea eveniet, eum officiis perferendis totam rem nemo a accusamus architecto quia non sequi dolorem eius ut id sunt praesentium.</a>
-                                                <div id="al">Lorem</div>
-                                                <a id="gg">Lorem, ipsum dolor sit amet</a>
-                                                <a id="CkJ">sit amet consectetur adipisicing elit. Iste, eum? Ea eveniet, eum officiis perferendis totam rem nemo a accusamus architecto quia non sequi dolorem eius ut id sunt praesentium.</a>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </div>
-                          </div>  
-                          <div class="item current-item">
-                            <div class="flex">
-                                <div><img src="img/image-fi.png" class="img-fluid" id="tm"></div>
-                                <div class="cj">
-                                    <table id="acu">
-                                        <tr>
-                                            <b>Filosofia</b>
-                                            <td class="aa">
-                                                <div id="al">Lorem</div>
-                                                <a id="gg">Lorem, ipsum dolor</a>
-                                                <a id="CkJ">sit amet consectetur adipisicing elit. Iste, eum? Ea eveniet, eum officiis perferendis totam rem nemo a accusamus architecto quia non sequi dolorem eius ut id sunt praesentium.</a>
-                                                <div id="al">Lorem</div>
-                                                <a id="gg">Lorem, ipsum dolor sit</a>
-                                                <a id="CkJ">sit amet consectetur adipisicing elit. Iste, eum? Ea eveniet, eum officiis perferendis totam rem nemo a accusamus architecto quia non sequi dolorem eius ut id sunt praesentium.</a>
-                                            </td>
-                                            <td class="aa">    
-                                                <div id="al">Lorem</div>
-                                                <a id="gg">Lorem, ipsum dolor sit</a>
-                                                <a id="CkJ">sit amet consectetur adipisicing elit. Iste, eum? Ea eveniet, eum officiis perferendis totam rem nemo a accusamus architecto quia non sequi dolorem eius ut id sunt praesentium.</a>
-                                                <div id="al">Lorem</div>
-                                                <a id="gg">Lorem, ipsum dolor sit amet</a>
-                                                <a id="CkJ">sit amet consectetur adipisicing elit. Iste, eum? Ea eveniet, eum officiis perferendis totam rem nemo a accusamus architecto quia non sequi dolorem eius ut id sunt praesentium.</a>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </div>
-                          </div> 
-                          <div class="item current-item">
-                            <div class="flex">
-                                <div><img src="img/image-fi.png" class="img-fluid" id="tm"></div>
-                                <div class="cj">
-                                    <table id="acu">
-                                        <tr>
-                                            <b>Filosofia</b>
-                                            <td class="aa">
-                                                <div id="al">Lorem</div>
-                                                <a id="gg">Lorem, ipsum dolor</a>
-                                                <a id="CkJ">sit amet consectetur adipisicing elit. Iste, eum? Ea eveniet, eum officiis perferendis totam rem nemo a accusamus architecto quia non sequi dolorem eius ut id sunt praesentium.</a>
-                                                <div id="al">Lorem</div>
-                                                <a id="gg">Lorem, ipsum dolor sit</a>
-                                                <a id="CkJ">sit amet consectetur adipisicing elit. Iste, eum? Ea eveniet, eum officiis perferendis totam rem nemo a accusamus architecto quia non sequi dolorem eius ut id sunt praesentium.</a>
-                                            </td>
-                                            <td class="aa">    
-                                                <div id="al">Lorem</div>
-                                                <a id="gg">Lorem, ipsum dolor sit</a>
-                                                <a id="CkJ">sit amet consectetur adipisicing elit. Iste, eum? Ea eveniet, eum officiis perferendis totam rem nemo a accusamus architecto quia non sequi dolorem eius ut id sunt praesentium.</a>
-                                                <div id="al">Lorem</div>
-                                                <a id="gg">Lorem, ipsum dolor sit amet</a>
-                                                <a id="CkJ">sit amet consectetur adipisicing elit. Iste, eum? Ea eveniet, eum officiis perferendis totam rem nemo a accusamus architecto quia non sequi dolorem eius ut id sunt praesentium.</a>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </div>
-                          </div> 
-                      </div>
-                      </div>
-          </div>
-
-            -->
-
-            
-            
-            <!-- Carrossel 2 
-            <div class="containerR">
-              <div class="flexX">
-                  <div class="arrow-leftT controlL axa" aria-label="Previous image">❮</div>
-                  <div class="arrow-rightT controlL axb" aria-label="Nest image">❯</div>
-              </div>
-                  <div class="galery-wrapperR">
-                  <div class="galleryY">
-                          <div class="itemM current-itemM">
-                              <div class="flexX">
-                                  <div id="ag">
-                                      <div class="ret">
-                                          <img src="img/usp.png" class="img-fluid" style="border-radius: 6vh;">
-                                          <div style="font-weight: bold;">USP</div>
-                                          <div id="CkJ">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
-                                      </div>
-                                      <div class="ret">
-                                          <img src="img/usp.png" class="img-fluid" style="border-radius: 6vh;">
-                                          <div style="font-weight: bold;">USP</div>
-                                          <div id="CkJ">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
-                                      </div>
-                                      <div class="ret">
-                                          <img src="img/usp.png" class="img-fluid" style="border-radius: 6vh;">
-                                          <div style="font-weight: bold;">USP</div>
-                                          <div id="CkJ">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
-                                      </div>
-                                      <div class="ret">
-                                          <img src="img/usp.png" class="img-fluid" style="border-radius: 6vh;">
-                                          <div style="font-weight: bold;">USP</div>
-                                          <div id="CkJ">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
-                                      </div>
-                                  </div>
-                                  <div class="j">
-                                      <div id="ag">
-                                          <div id="QJH">
-                                              <p><b>Faculdades para filosofia</b></p>
-                                              <a id="CkJ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo ea quam voluptates, quibusdam dolore autem soluta hic minima veniam nobis neque accusamus illum, cumque itaque. Aperiam ut nihil quos exercitationem!</a>
-                                              <div id="Fpm">
-                                                  <img src="img/S55.png" class="img-fluid" id="jxU">
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="itemM current-itemM">
-                              <div class="flexX">
-                                  <div id="ag">
-                                      <div class="ret">
-                                          <img src="img/usp.png" class="img-fluid" style="border-radius: 6vh;">
-                                          <div style="font-weight: bold;">USP</div>
-                                          <div id="CkJ">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
-                                      </div>
-                                      <div class="ret">
-                                          <img src="img/usp.png" class="img-fluid" style="border-radius: 6vh;">
-                                          <div style="font-weight: bold;">USP</div>
-                                          <div id="CkJ">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
-                                      </div>
-                                      <div class="ret">
-                                          <img src="img/usp.png" class="img-fluid" style="border-radius: 6vh;">
-                                          <div style="font-weight: bold;">USP</div>
-                                          <div id="CkJ">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
-                                      </div>
-                                      <div class="ret">
-                                          <img src="img/usp.png" class="img-fluid" style="border-radius: 6vh;">
-                                          <div style="font-weight: bold;">USP</div>
-                                          <div id="CkJ">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
-                                      </div>
-                                  </div>
-                                  <div class="j">
-                                      <div id="ag">
-                                          <div id="QJH">
-                                              <p><b>Faculdades para filosofia</b></p>
-                                              <a id="CkJ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, doloremque! Necessitatibus voluptates aperiam odit vitae sit voluptatem. Quisquam, quo similique alias, ducimus dolorem debitis officiis voluptatem pariatur incidunt voluptate consequuntur!</a>
-                                              <div id="Fpm">
-                                                  <img src="img/S55.png" class="img-fluid" id="jxU">
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                </div>
-              -->
-
+     
             <div id="bg">
               <div id="bg-meio"><img src="img/image-4-.png" id="bg-img"></div>
               <div class="ab1"></div>
@@ -322,7 +159,8 @@
               <div class="ab4"></div>
               <div class="ab5"></div>
             </div>
-            <div id="Arrumar1">
+
+            <div id="Arrumar3">
               <div id="traco" class="tr1"></div>
               <p id="titulo">Dúvidas</p>
               <div id="traco1" class="tr1"></div>
@@ -340,12 +178,12 @@
                   <div class="card">
                     <div class="card-header" id="bg-c">
                       <a class="btn" data-bs-toggle="collapse" href="#collapseOne" id="a">
-                        Lorem ipsum..
+                        Posso fazer uma pós que não seja na minha área de formação na graduação?
                       </a>
                     </div>
                     <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
                       <div class="card-body">
-                        Lorem ipsum..
+                        Sim. Tanto as pós-graduações lato sensu quanto as stricto sensu podem ser feitas por alunos de outras áreas de formação. É importante só verificar as exigências de cada curso no edital de abertura de vagas, para ver se você cumpre todos os pré-requisitos exigidos para o curso.
                       </div>
                     </div>
                   </div>
@@ -391,7 +229,7 @@
               </div>
             </div>
 
-            <div id="Arrumar1">
+            <div id="Arrumar4">
               <div id="traco" class="tr1"></div>
               <p id="titulo">Devs</p>
               <div id="traco1" class="tr1"></div>
@@ -405,7 +243,7 @@
                   <div class="UIB">Arthur</div>
                 </div>
                 <div class="EXa">
-                  <a id="CkJ">voluptatum optio non consequuntur. Alias porro magni r Lorem ipsum dolor sit amet consectetur</a>
+                  <p class="CkJ">voluptatum optio non consequuntur. Alias porro magni r Lorem ipsum dolor sit amet consectetur</p>
                 </div>
                 <div class="OrL">
                   <img src="img/HlR.png" class="img-fluid">
@@ -419,7 +257,7 @@
                   <div class="UIB">Carlos</div>
                 </div>
                 <div class="EXa">
-                  <a id="CkJ">voluptatum optio non consequuntur. Alias porro magni r Lorem ipsum dolor sit amet consectetur</a>
+                  <p class="CkJ">voluptatum optio non consequuntur. Alias porro magni r Lorem ipsum dolor sit amet consectetur</p>
                 </div>
                 <div class="OrL">
                   <img src="img/HlR.png" class="img-fluid">
@@ -433,7 +271,7 @@
                   <div class="UIB">Guilherme</div>
                 </div>
                 <div class="EXa">
-                  <a id="CkJ">voluptatum optio non consequuntur. Alias porro magni r Lorem ipsum dolor sit amet consectetur</a>
+                  <p class="CkJ">voluptatum optio non consequuntur. Alias porro magni r Lorem ipsum dolor sit amet consectetur</p>
                 </div>
                 <div class="OrL">
                   <img src="img/HlR.png" class="img-fluid">
