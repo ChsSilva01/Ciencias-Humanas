@@ -367,7 +367,7 @@ section{
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: #000;
+    background-color: #6544B3;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -641,7 +641,7 @@ a{
 }
 #bg-meio{
     background-color: #ffffff;
-    width: 50%;
+    width: 40%;
     height: 70%;
     margin-left: 26%;
     border: 20px solid #27147D;
@@ -716,7 +716,7 @@ a{
     padding-top: 8%;
 }
 .BHD{
-    width: 20vw;
+    width: 19vw;
     height: 38vh;
     background-color: #5034A1;
     border-radius: 2vh;
@@ -725,6 +725,7 @@ a{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    
 }
 .ouD{
     width: 8vw;
@@ -755,7 +756,7 @@ a{
 }
 .EXa{
     color: #ffff;
-    text-align: justify;
+    text-align: center;
     width: 80%;
     height: 30%;
     margin-bottom: 6vh;
@@ -852,7 +853,7 @@ a{
 @media only screen and (max-width: 992px) {
     #tm{display: none;}
     .Wraaper{
-        height: 800vh;
+        height: 650vh;
         width: 100%;
         top: 0%;
         left: 0%;
@@ -865,7 +866,7 @@ a{
         top: 0%;
         left: 0%;
         width: 100%;
-        height: 80vh;
+        height: 60vh;
         position: relative;
         background-image: linear-gradient(70.42deg, #27147D 0%, #3C248F 30.77%, #5034A1 69.01%, #6544B3 99.22%);
     }
@@ -874,7 +875,7 @@ a{
     }
     #a{
         color: #d9d9d9;
-        font-size: 1.8vw;
+        font-size: 2.1vw;
     }
     #b,#c{
         color: #ffff;
@@ -898,9 +899,9 @@ a{
         bottom: 0;
         left: 0;
         width: 100%;
-        height: 32.5vh;
-        background: url(../img/wave.png);
-        background-size: cover;
+        height: 15vh;
+        background: url(../img/waveCell.png);
+        background-size: 100% 100%;
         background-repeat: no-repeat;
     }
     #texto{
@@ -947,8 +948,8 @@ a{
     #Arrumar2{
         display: flex;
         flex-direction: column;
-        padding-left: 10%;
-        width: 90%;
+        padding-left: 0%;
+        width: 100%;
         height: 80vh;
         padding-top: 5%;
         justify-content: space-between; 
@@ -1117,12 +1118,15 @@ a{
         margin-top: 3%;
     }
     #texto-1{
-        font-size: 1.5vw;
+        font-size: 2.1vw;
         color: #000000;
         text-align: justify;
     }   
     
     /* Curso */
+    #zaba{
+        font-size: 2.7vh;
+    }
     .kojg{
         font-size: 2vh;
     }
@@ -1215,7 +1219,7 @@ a{
         display: inline-block;
         padding: 8px;
         color: white;
-        background-color: #000;
+        background-color: #6544B3;
         text-align: center;
         cursor: pointer;
         width: 100%;
@@ -1278,7 +1282,7 @@ a{
         font-size: 1vw;
     }
     .CkJ{
-        font-size: 1.7vw;
+        font-size: 2vw;
     }
     .CkJA{
         font-size: 1.2vw;
@@ -1481,7 +1485,7 @@ a{
     #bg{
         background-image: linear-gradient(180deg,var(--CorPrincipal));
         width: 127.5%;
-        height: 70vh;
+        height: 60vh;
         left: -15%;
         top: 0%;
         position: relative;
@@ -1567,7 +1571,7 @@ a{
         padding-top: 8%;
     }
     .BHD{
-        width: 20vw;
+        width: 18vw;
         height: 30vh;
         background-color: #5034A1;
         border-radius: 2vh;
